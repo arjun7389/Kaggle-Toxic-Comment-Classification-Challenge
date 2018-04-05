@@ -199,13 +199,6 @@ den1=Dense(128, activation='relu')(lstm1)
 merge=concatenate([den1,den2])
 merge_den=Dense(100,activation='relu')(merge)
 
-"""
-resh1=Reshape((128,1))(den1)
-conv1 = Conv1D(64, kernel_size=(2), activation='relu')(resh1)
-pool15 = MaxPooling1D(5)(conv1)
-flat5=Flatten()(pool15)
-den15=Dense(70, activation='relu')(flat5)
-"""
 
 
 den3=Dense(64, activation='relu')(merge_den)
