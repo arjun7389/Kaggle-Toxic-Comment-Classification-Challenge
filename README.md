@@ -4,5 +4,5 @@ To build a multi-headed model that’s capable of detecting different types of o
 Word embedding done by glove.6b 100d vectors
 
 1.kaggle_bi.py is a simple Bi-LSTM model,  
-2.kaggle_cnn.py is a model built using cnn, 
+2.kaggle_cnn.py is a model built using cnn,                                     
 3.kaggle_bi3.py is model built using bi-lstm and cnn,
